@@ -354,8 +354,18 @@ header {
   display: inline;
 }
 
+.profile h2,
+.profile p,
+.profile figure {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.profile figure {
+  margin-bottom: 6px;
+}
 
-@media screen and (max-width: 1300px) {
+
+@media screen and (max-width: 1350px) {
   main {
     flex-flow: column nowrap;
   }
@@ -367,7 +377,7 @@ header {
     align-self: center;
   }
 }
-@media screen and (max-height: 675px) {
+@media screen and (max-height: 600px/*675*/) {
   main {
     flex-flow: column nowrap;
   }
@@ -378,12 +388,7 @@ header {
   main aside {
     align-self: center;
   }
-
-  nav {
-    position: static;
-  }
 }
-
 
 @media screen and (max-width: 950px) {
   nav ul {
@@ -414,7 +419,7 @@ header {
     font-size: 1.65rem;
   }
 }
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 552px) {
 .dropdown-group{
     row-gap: 0;
     margin-bottom: 1rem;
