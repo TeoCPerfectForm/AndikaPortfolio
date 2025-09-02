@@ -389,6 +389,11 @@ header {
     align-self: center;
   }
 }
+@media screen and (max-height: 450px) {
+  nav {
+    position: static;
+  }
+}
 
 @media screen and (max-width: 950px) {
   nav ul {
