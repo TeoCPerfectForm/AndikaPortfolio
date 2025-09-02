@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andika's Portfolio</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+  </head>
+
+  <body class="default-palette">
+    <header>
+      <div class="jumbotron">
+        <h1>PORTFOLIO</h1>
+        <p>
+          <strong>Komang Andika Putra</strong>
+        </p>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#projects" class="blue">Projects</a>
+          </li>
+          <li>
+            <a href="#infographic" class="pink">Infographic Designs</a>
+          </li>
+          <li>
+            <a href="#work" class="red">Work Experiences</a>
+          </li>
+          <li>
+            <a href="#social-links" class="yellow">Social Links</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="content">
+        <article id="projects" class="card projects">
+          <div class="dropdown-group">
+            <h2>Projects</h2>
+            <select id="projects-dropdown" class="dropdown projects-dropdown">
+              <option value="project1">SIPEMAKU</option>
+              <option value="project2">ODGJ Rescue</option>
+              <option value="project3">Vitalify App</option>
+            </select>
+          </div>
+          <div id="projects-content" class="dropdown-content projects-content">
+          <div>
+            <h3>SIPEMAKU</h3>
+            <p>
+              SIPEMAKU adalah sebuah sistem yang dirancang untuk <em>memudahkan 
+              monitoring dan pengelolaan jadwal perkuliahan di lingkungan akademik.</em>
+            </p>
+          </div>
+          <img src="assets/image/SIPEMAKU.png" alt="Tampilan Aplikasi SIPEMAKU" class="featured-image">
+          </div>
+        </article>
+
+        <article id="infographic" class="infographic card">
+          <div class="dropdown-group">
+            <h2>Infographic Designs</h2>
+            <select id="infographic-dropdown" class="dropdown infographic-dropdown">
+              <option value="info1">Invention 2024</option>
+              <option value="info2">Invention 2023</option>
+              <option value="info3">UFONITY 2023</option>
+            </select>
+          </div>
+          <div id="infographic-content" class="dropdown-content infographic-content">
+          <div>
+            <h3>Micro-learning</h3>
+            <p>
+              Finalis Lomba Infographic Design INVENTION 2024.<br><br>Poster ini 
+              mengangkat metode pengajaran <em>microlearning sebagai solusi yang 
+              terbukti mampu meningkatkan hasil belajar secara signifikan.</em>
+            </p>
+          </div>
+          <img src="assets/image/Microlearning.png" alt="Tampilan Poster Microlearning" class="featured-image">  
+          </div>
+        </article>
+
+        <article id="work" class="work card">
+          <div class="dropdown-group">
+            <h2>Work Experiences</h2>
+            <select id="work-dropdown" class="dropdown work-dropdown">
+              <option value="work1">7th Beat Games</option>
+              <option value="work2">Asset Design</option>
+              <option value="work3">Logo Design</option>
+              <option value="work4">Level Design</option>
+            </select>
+          </div>
+          <div id="work-content" class="dropdown-content work-content">
+          <div>  
+            <h3>7th Beat Games</h3>
+            <p>
+              7th Beat Games adalah sebuah studio indie yang mengontrak saya.
+              <br><br><em>Studio ini dikenal dari Rhythm Game satu tombol 
+              seperti <a class="link" href="https://store.steampowered.com/app/774181/Rhythm_Doctor/" target="_blank">
+              Rhythm Doctor</a> dan <a class="link" href="https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice/" target="_blank">A Dance of Fire and Ice.</a></em>
+            </p>
+          </div>
+          <img src="assets/image/WorkInformation.png" alt="Deskripsi Tim 7th Beat Games" class="featured-image">  
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Profile Card</h2>
+            <p>Komang Andika Putra</p>
+            <figure>
+              <img src="assets/image/Avatar.png" alt="Foto profil Komang Andika Putra">
+              <figcaption hidden>Avatar</figcaption>
+            </figure>
+          </header>
+>
+          <!-- <h3 class="info">More about me:</h3>-->
+
+          <table class="infotable">
+            <tr>
+              <th>Country</th>
+              <td>Indonesia</td>
+            </tr>
+            <tr>
+              <th>Birth Date</th>
+              <td>26 November 2005</td>
+            </tr>
+          </table>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>
+        Follow my progress on social media!
+      </p>
+      <div id="social-links" class="social-links">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/komang-andika-putra-b5915a286/"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.instagram.com/komangandikaputra23/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/TeoCPerfectForm"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+    </footer>
+    <script src="assets/scripts/dropdown.js"></script>
+  </body>
+</html>
