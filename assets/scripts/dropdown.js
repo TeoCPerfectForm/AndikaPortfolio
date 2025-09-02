@@ -8,7 +8,7 @@ const projectsData = {
   },
   project2: {
     title: "ODGJ Rescue",
-    img: "assets/image/ODGJRescue.png",
+    img: "assets/image/ODGJrescue.png",
     alt: "Tampilan Aplikasi ODGJ Rescue",
     desc: "ODGJ Rescue adalah sistem yang memungkinkan masyarakat <em>memberikan laporan pengaduan terkait gangguan jiwa dan mental di Bali.</em>"
   },
